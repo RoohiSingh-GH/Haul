@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         for(i in 0..100){
             products.add(Product("Jacket","http://picsum.photos/id/237/200/300",1.90))
             products.add(Product("Jack","http://via.placeholder.com/150",1.90))
+            products.add(Product("Jeans","http://via.placeholder.com/150",1.90))
         }
 
 recycler_view_products.apply {
